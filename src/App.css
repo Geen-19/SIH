@@ -1,0 +1,208 @@
+#root {
+  max-width: 100%;
+  text-align: center;
+  margin: 0px;
+}
+h1, h2, h3, p {
+  margin: 0px;
+  padding: 5px;
+  font-family: Montserrat;
+}
+@font-face {
+  font-family: 'Integral CF';
+  src: url('../src//fonts/OTF/IntegralCF-Regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Integral CF';
+  src: url('../src//fonts/OTF/IntegralCF-Regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 4.5rem;
+  flex-shrink: 0;
+  border-bottom: 1px solid #D9D9D9;
+  background: #FFF;
+
+}
+.logo {
+  width: 2.625rem;
+  height: 2.625rem;
+  flex-shrink: 0;
+  border-radius: 0.75rem;
+}
+.logo-cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div-line {
+  width: 100%;
+  height: 0.0625rem;
+  background: #D9D9D9;
+  margin-top: 4rem;
+}
+.mid-nav {
+  display: flex;
+}
+.mid-nav > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 1rem;
+  
+}
+.mid-nav > div > p {
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-right: 0.5rem;
+}
+.nav > div > p {
+  color: #000;
+  font-family: "Integral CF";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.nav > div {
+  display: flex;
+  gap: 0.56rem;
+}
+.nav-box {
+  width: 1.5rem;
+  height: 1.5rem;
+  flex-shrink: 0;
+  border-radius: 0.5rem;
+  background: #000;
+  color: #D9D9D9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-right: 0.5rem;
+}
+
+.nav-line {
+  width: 1.5rem;
+  height: 0.1rem;
+  flex-shrink: 0;
+  stroke-width: 2px;
+  background-color: #D9D9D9;
+}
+
+.upload {
+  width: 100%;
+  justify-content: start;
+}
+
+.up-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.buttonMove {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.choose-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0C67FF;
+  font-family: "Integral CF";
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 10rem;
+  height: 5rem;
+  flex-shrink: 0;
+  border-radius: 1.5rem;
+  border: 2px solid #0C67FF;
+  padding: 3px 2px 3px 2px;
+}
+.choose-div {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.choose {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  margin-top: 1rem;
+}
+.result {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  margin-top: 1rem;
+}
+.result div {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+
+}
+
+.video-cover {
+  width: 33.75rem;
+  height: 17.5rem;
+  flex-shrink: 0;
+  padding: 3rem;
+  border-radius: 1.5rem;
+  border: 1px dashed #BEBEBE;
+}
+
+.video  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.back {
+  border-radius: 0.75rem;
+  padding: 0.5rem 1rem;
+  border: 2px solid #D6DDE0;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.next {
+  padding: 0.5rem 1rem;
+  flex-shrink: 0;
+  border-radius: 0.75rem;
+  background: #0C67FF;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
